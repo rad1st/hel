@@ -1,16 +1,16 @@
 {
-	"require" : {
-		"ext-imagick" : "*",
-		"charlottedunois/athena" : "dev-master",
-		"charlottedunois/livia" : "dev-master",
-		"charlottedunois/set" : "^0.1.0",
-		"charlottedunois/yasmin" : "dev-master",
-		"react/mysql" : "dev-master",
-		"predis/predis-async" : "dev-master"
-	},
-	"autoload" : {
-		"psr-4" : {
-			"CharlotteDunois\\Bots\\Jibril\\" : "src"
-		}
-	}
+    "require": {
+        "ext-imagick": "*",
+        "charlottedunois/athena": "dev-master",
+        "charlottedunois/livia": "dev-master",
+        "charlottedunois/set": "^0.1.0",
+        "charlottedunois/yasmin": "dev-master",
+        "react/mysql": "dev-master",
+        "predis/predis-async": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CharlotteDunois\\Bots\\Jibril\\": "src"
+        }
+    }
 }
