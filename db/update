@@ -1,0 +1,13 @@
+#!/bin/sh
+
+wget https://www.fuzzwork.co.uk/dump/latest/invCategories.sql.bz2
+wget https://www.fuzzwork.co.uk/dump/latest/invGroups.sql.bz2
+wget https://www.fuzzwork.co.uk/dump/latest/invTypeMaterials.sql.bz2
+wget https://www.fuzzwork.co.uk/dump/latest/invTypes.sql.bz2
+wget https://www.fuzzwork.co.uk/dump/latest/mapDenormalize.sql.bz2
+wget https://www.fuzzwork.co.uk/dump/latest/mapRegions.sql.bz2
+wget https://www.fuzzwork.co.uk/dump/latest/mapSolarSystems.sql.bz2
+
+## then unzip and import to your DB
+bunzip2 *.bz2
+cat *.sql | mysql -u bots eve_sde
